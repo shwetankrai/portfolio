@@ -1,0 +1,131 @@
+html {
+    background-color: #F9FBE7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.outerbox {
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.profile {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    height: 200px;
+    width: auto;
+    mix-blend-mode: color-burn;
+    mix-blend-mode: darken;
+}
+
+.intro {
+    flex-basis: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 8px;
+}
+#hi {
+    font-size: 0px;
+}
+
+#para {
+    font-size: 30px;
+}
+
+#div_tags {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#div2 {
+    font-size: 20px;
+}
+
+.skills {
+    font-size: 20px;
+}
+
+.dashboard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#saurav {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+#ps {
+    font-weight: 600;
+}
+
+@media (min-width: 851) and (max-width: 1070px){
+    h1{
+        font-size: 40px;
+    }
+    #para {
+        font-size: 20px;
+    }
+    .intro {
+        flex-basis: 600px;
+    }
+    #div_tags {
+        margin-left: 30px;
+    }
+
+}
+
+@media (max-width: 850px) {
+    img {
+        height: 0px;
+    }
+    #hi {
+        font-size: 1em;
+    }
+    h1{
+        font-size: 40px;
+    }
+    #para {
+        font-size: 20px;
+    }
+    .profile{
+        gap: 0px;
+    }
+    #div_tags {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: start;
+    }
+    #div2 {
+        font-size: 18px;
+    }
+    .skills {
+        font-size: 18px;
+    }
+}
